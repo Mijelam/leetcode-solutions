@@ -34,7 +34,7 @@ def removeDuplicates(self, nums: List[int]) -> int:
 
 The key to this problem is understanding exactly what needs to be done. It might be a bit confusing at first, but I broke it down as follows:
 
-I need to compare each number with the one that comes after it. If they are equal, I do nothing—this means it's a duplicate. But if they are different, I need to keep that new number. The question is: where should I place this new unique number?
+I need to compare each number with the one that comes after it. If they are equal, I do nothing,this means it's a duplicate. But if they are different, I need to keep that new number. The question is: where should I place this new unique number?
 
 This is where the variable `k = 1` becomes important. It has two purposes: it tracks the position where the next unique number should go, and it also ends up counting the number of unique values found.
 
