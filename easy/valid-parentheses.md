@@ -38,6 +38,6 @@ This method relies on the idea that valid parentheses will always eventually col
 
 ## Explanation
 
-This solution repeatedly removes any directly matching pairs of brackets from the string—specifically `"()"`, `"[]"`, and `"{}"`. It uses a `while` loop that continues to check for the presence of these valid pairs and removes them using the `replace` method.
+This solution repeatedly removes any directly matching pairs of brackets from the string specifically `"()"`, `"[]"`, and `"{}"`. It uses a `while` loop that continues to check for the presence of these valid pairs and removes them using the `replace` method.
 
 The loop stops when none of those pairs exist in the string anymore. At that point, if the string is empty, it means all parentheses were correctly matched. If anything remains in the string, it indicates that there were unmatched or incorrectly ordered brackets, so the function returns `False`.
