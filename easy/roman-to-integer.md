@@ -82,6 +82,9 @@ Let’s look at `"LIX"` (which is 59):
 
 This approach solves both problems: it prevents index errors and avoids double-counting characters.
 
+<img width="626" height="626" alt="image" src="https://github.com/user-attachments/assets/0934d40e-19c8-4a34-9619-76b1c954dbd1" />
+
+
 ---
 
 
