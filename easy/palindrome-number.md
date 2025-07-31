@@ -34,7 +34,7 @@ def isPalindroome(x):
 
 ```
 What’s important to highlight here is the use of the slicing syntax `[::-1]`, which efficiently reverses the entire string.  
-So when we compare `x` with `x[::-1]`, we're simply checking if the reversed version matches the original — the essence of a **palindrome**.
+So when we compare `x` with `x[::-1]`, we're simply checking if the reversed version matches the original.
 
 Although this solution is clean and readable, LeetCode introduces a follow-up challenge: solving the same problem **without converting the number to a string**.  
 That’s where things get more interesting.
